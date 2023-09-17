@@ -4,6 +4,8 @@
 #include <ctype.h>
 #define SIZE	9
 
+/* Fills the matrix with the values given by the user */
+/* Empty cells are given a value of 0 */
 void	fill_matrix(int matrix[10][10], char *str)
 {
 	int	i;
@@ -24,6 +26,7 @@ void	fill_matrix(int matrix[10][10], char *str)
 	}
 }
 
+/* Prints the matrix in readable way */
 void	print_matrix(int matrix[10][10])
 {
 	int	i;
@@ -46,6 +49,9 @@ void	print_matrix(int matrix[10][10])
 	}
 }
 
+/* Applies sudoku rules to verify if the 'n' number provided */
+/* is possible inside its row, column or 3x3 cell */
+/* If possible returns 1 otherwise returns 0 */
 int	possible(int matrix[10][10], int x, int y, int n)
 {
 	int	i;
@@ -73,6 +79,7 @@ int	possible(int matrix[10][10], int x, int y, int n)
 	return (1);
 }
 
+/* Uses backtracking algorithm to find solution */
 int	solve(int matrix[10][10])
 {
 	int	n;
