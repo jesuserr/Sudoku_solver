@@ -4,7 +4,7 @@ After learning backtracking concept during 42_Piscine I decided to write a progr
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Installing
 
@@ -14,10 +14,10 @@ First of all, clone the repository on your computer
 git clone https://github.com/jesuserr/Sudoku_solver.git
 ```
 
-and then execute Make to compile the program
+and then execute 'Make' inside the newly created ´Sudoku_solver' folder to compile the program
 
 ```
-Make
+cd Sudoku_solver/ && make
 ```
 
 ## Execution
@@ -28,9 +28,9 @@ In order to run the program, execute it as shown below
 ./sudoku_solver .15.....2.....2.4..9....6.15.....4..42..3.9...634...8..86.25........3.6..4......8
 ```
 
-Output:
+The output should show the initial Sudoku and the solution found:
 
-...
+```
 Initial Sudoku:
 .15 ... ..2 
 ... ..2 .4. 
@@ -56,7 +56,7 @@ Solution Found:
 986 125 374 
 752 843 169 
 341 697 528 
-...
+```
 
 ## Built With
 
