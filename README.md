@@ -66,11 +66,7 @@ Solution Found:
 
 * [Sudoku Generator for testing](https://qqwing.com/generate.html) - In 'Output format' choose the option 'One line' to obtain the Sudoku in proper format to feed the program.
 * [Python Sudoku Solver - Computerphile](https://www.youtube.com/watch?v=G_UYXzGuqvM) - Video from Computerphile explaining backtracking algorithm to solve Sudoku in Python.
-* [Solving Every Sudoku Puzzle](http://norvig.com/sudoku.html) - Essay fro Peter Norvig dealing with Sudoku solving algorithms.
+* [Solving Every Sudoku Puzzle](http://norvig.com/sudoku.html) - Essay from Peter Norvig dealing with Sudoku solving algorithms.
+* [Backtracking - Wikipedia](https://en.wikipedia.org/wiki/Backtracking) - Wikipedia entry for Backtracking.
 
-
-
-
-
-
-
+![Sudoku_solved_by_bactracking](https://github.com/jesuserr/Sudoku_solver/assets/118769872/2d404260-0184-4ec8-a5b2-1dbde28feb9c)
