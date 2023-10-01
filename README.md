@@ -69,4 +69,4 @@ Solution Found:
 * [Solving Every Sudoku Puzzle](http://norvig.com/sudoku.html) - Essay from Peter Norvig dealing with Sudoku solving algorithms.
 * [Backtracking - Wikipedia](https://en.wikipedia.org/wiki/Backtracking) - Wikipedia entry for Backtracking.
 
-![Sudoku_solved_by_bactracking](https://github.com/jesuserr/Sudoku_solver/assets/118769872/2d404260-0184-4ec8-a5b2-1dbde28feb9c)
+![Sudoku_solved_by_bactracking](https://github.com/jesuserr/Sudoku_solver/gif/Sudoku_solved_by_bactracking.gif)

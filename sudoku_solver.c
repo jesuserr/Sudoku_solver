@@ -33,7 +33,7 @@ void	print_matrix(int matrix[10][10])
 	int	j;
 
 	for (j = 1; j <= SIZE; j++)
-	{	
+	{
 		for (i = 1; i <= SIZE; i++)
 		{
 			if (matrix [i][j] != 0)
@@ -100,7 +100,7 @@ int	solve(int matrix[10][10])
 						if (solve (matrix) == 1)
 							return (1);
 						matrix [i][j] = 0;
-					}					
+					}
 				}
 				return (0);
 			}
